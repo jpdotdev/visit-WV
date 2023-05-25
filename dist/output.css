@@ -603,8 +603,8 @@ video {
      object-fit: cover;
 }
 
-.pt-\[10\%\] {
-  padding-top: 10%;
+.pt-\[5\%\] {
+  padding-top: 5%;
 }
 
 .text-center {
@@ -623,10 +623,16 @@ body {
 .img-container {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3%;
+  margin-top: 5%;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+  .img-container {
+    height: 12rem;
+  }
+}
+
+@media (min-width: 360px) {
   .img-container {
     height: 17rem;
     width: 27rem;
@@ -666,7 +672,14 @@ body {
   letter-spacing: 0.025em;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+  .wv {
+    font-size: 2rem;
+    text-shadow: 0.03rem 0.03rem 0.03rem white;
+  }
+}
+
+@media (min-width: 360px) {
   .wv {
     font-size: 3rem;
     text-shadow: 0.05rem 0.05rem 0.05rem white;
@@ -706,7 +719,13 @@ body {
   letter-spacing: 0.025em;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+  .ww {
+    text-shadow: 0.03rem 0.03rem 0.03rem white;
+  }
+}
+
+@media (min-width: 360px) {
   .ww {
     font-size: 1.5rem;
     text-shadow: 0.05rem 0.05rem 0.05rem white;
@@ -742,7 +761,6 @@ body {
 }
 
 .article-title {
-  margin-top: -4%;
   display: block;
   width: 100%;
   justify-content: center;
@@ -750,7 +768,13 @@ body {
   font-family: "Permanent Marker", cursive;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+  .article-title {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 360px) {
   .article-title {
     font-size: 1.5rem;
   }
@@ -790,9 +814,15 @@ body {
   font-family: "Bebas Neue", sans-serif;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
   .article-contents {
-    font-size: 0.68rem;
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 360px) {
+  .article-contents {
+    font-size: 0.75rem;
   }
 }
 
@@ -820,17 +850,13 @@ body {
   }
 }
 
-.body {
-  height: 150vh;
-}
-
 .section-title {
   margin-top: 2%;
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 360px) {
   .section-title {
     font-size: 1.5rem;
   }
@@ -866,9 +892,15 @@ body {
   line-height: 2;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
   .history-fact-text {
-    font-size: 0.70rem;
+    font-size: 0.62rem;
+  }
+}
+
+@media (min-width: 360px) {
+  .history-fact-text {
+    font-size: 0.75rem;
   }
 }
 
@@ -900,7 +932,13 @@ body {
   font-family: "Bebas Neue", sans-serif;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+  .source-link {
+    font-size: 0.4rem;
+  }
+}
+
+@media (min-width: 360px) {
   .source-link {
     font-size: 0.6rem;
   }
@@ -937,7 +975,14 @@ body {
   margin-bottom: 7%;
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+  .gallery-img-container {
+    height: 8.5rem;
+    width: 12rem;
+  }
+}
+
+@media (min-width: 360px) {
   .gallery-img-container {
     height: 11.9rem;
     width: 17rem;
@@ -972,13 +1017,27 @@ body {
   }
 }
 
-@media (min-width: 200px) {
+@media (min-width: 100px) {
+  .xxs\:text-\[0\.80rem\] {
+    font-size: 0.80rem;
+  }
+
+  .xxs\:\[text-shadow\:_0\.012rem_0\.012rem_0\.012rem_white\] {
+    text-shadow: 0.012rem 0.012rem 0.012rem white;
+  }
+}
+
+@media (min-width: 360px) {
   .xs\:h-xs {
     height: 17vh;
   }
 
-  .xs\:text-\[0\.80rem\] {
-    font-size: 0.80rem;
+  .xs\:text-\[0\.90rem\] {
+    font-size: 0.90rem;
+  }
+
+  .xs\:\[text-shadow\:_0\.017rem_0\.017rem_0\.017rem_white\] {
+    text-shadow: 0.017rem 0.017rem 0.017rem white;
   }
 }
 
@@ -989,6 +1048,10 @@ body {
 
   .sm\:text-\[1rem\] {
     font-size: 1rem;
+  }
+
+  .sm\:\[text-shadow\:_0\.021rem_0\.021rem_0\.021rem_white\] {
+    text-shadow: 0.021rem 0.021rem 0.021rem white;
   }
 }
 
@@ -1004,6 +1067,10 @@ body {
   .md\:text-\[1\.1rem\] {
     font-size: 1.1rem;
   }
+
+  .md\:\[text-shadow\:_0\.025rem_0\.025rem_0\.025rem_white\] {
+    text-shadow: 0.025rem 0.025rem 0.025rem white;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -1018,6 +1085,10 @@ body {
   .lg\:text-\[1\.2rem\] {
     font-size: 1.2rem;
   }
+
+  .lg\:\[text-shadow\:_0\.03rem_0\.03rem_0\.03rem_white\] {
+    text-shadow: 0.03rem 0.03rem 0.03rem white;
+  }
 }
 
 @media (min-width: 1740px) {
@@ -1027,5 +1098,9 @@ body {
 
   .xl\:text-\[1\.5rem\] {
     font-size: 1.5rem;
+  }
+
+  .xl\:\[text-shadow\:_0\.035rem_0\.035rem_0\.035rem_white\] {
+    text-shadow: 0.035rem 0.035rem 0.035rem white;
   }
 }

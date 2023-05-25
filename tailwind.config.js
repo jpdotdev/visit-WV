@@ -4,7 +4,9 @@ module.exports = {
             "./dist/**/*.{html,js}"],
   theme: { 
     screens: {
-      'xs': '200px',
+      'xxs': '100px',
+
+      'xs': '360px',
 
       'sm': '620px',
       // => @media (min-width: 576px) { ... }
@@ -18,6 +20,7 @@ module.exports = {
       // => @media (min-width: 1440px) { ... }
     },
     fontSize: {
+      xxxs: '1rem',
       xxs: '1.5rem',
       xs: '2rem',
       sm: '3rem',

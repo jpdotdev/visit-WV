@@ -9,41 +9,37 @@ body {
 }
 
 .img-container {
-    @apply xs:h-[17rem] xs:w-[27rem] sm:h-[23.5rem] sm:w-[35rem] md:h-[18rem] md:w-[26rem] lg:h-[26rem] lg:w-[38rem] xl:h-[32rem] xl:w-[48rem] mt-[3%] mx-auto
+    @apply xxs:h-[12rem] xs:h-[17rem] xs:w-[27rem] sm:h-[23.5rem] sm:w-[35rem] md:h-[18rem] md:w-[26rem] lg:h-[26rem] lg:w-[38rem] xl:h-[32rem] xl:w-[48rem] mt-[5%] mx-auto
 }
 
 .wv {
-    @apply font-perm xs:text-sm sm:text-md md:text-lg lg:text-xl xl:text-xxl tracking-wide xs:[text-shadow:_0.05rem_0.05rem_0.05rem_white] sm:[text-shadow:_0.10rem_0.10rem_0.10rem_white] md:[text-shadow:_0.15rem_0.15rem_0.15rem_white] lg:[text-shadow:_0.20rem_0.20rem_0.20rem_white] xl:[text-shadow:_0.25rem_0.25rem_0.25rem_white]
+    @apply font-perm xxs:text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl xl:text-xxl tracking-wide xxs:[text-shadow:_0.03rem_0.03rem_0.03rem_white] xs:[text-shadow:_0.05rem_0.05rem_0.05rem_white] sm:[text-shadow:_0.10rem_0.10rem_0.10rem_white] md:[text-shadow:_0.15rem_0.15rem_0.15rem_white] lg:[text-shadow:_0.20rem_0.20rem_0.20rem_white] xl:[text-shadow:_0.25rem_0.25rem_0.25rem_white]
 }
 
 .ww {
-    @apply font-perm xs:text-xxs sm:text-xs md:text-sm lg:text-md xl:text-lg tracking-wide xs:[text-shadow:_0.05rem_0.05rem_0.05rem_white] sm:[text-shadow:_0.10rem_0.10rem_0.10rem_white] md:[text-shadow:_0.15rem_0.15rem_0.15rem_white] lg:[text-shadow:_0.20rem_0.20rem_0.20rem_white] xl:[text-shadow:_0.25rem_0.25rem_0.25rem_white]
+    @apply font-perm xs:text-xxs sm:text-xs md:text-sm lg:text-md xl:text-lg tracking-wide xxs:[text-shadow:_0.03rem_0.03rem_0.03rem_white] xs:[text-shadow:_0.05rem_0.05rem_0.05rem_white] sm:[text-shadow:_0.10rem_0.10rem_0.10rem_white] md:[text-shadow:_0.15rem_0.15rem_0.15rem_white] lg:[text-shadow:_0.20rem_0.20rem_0.20rem_white] xl:[text-shadow:_0.25rem_0.25rem_0.25rem_white]
 }
 
 .article-title {
-    @apply block w-[100%] mt-[-4%] font-perm text-center justify-center xs:text-[1.5rem] sm:text-[2.35rem] md:text-[2.5rem] lg:text-[3.15rem] xl:text-[3.5rem]
+    @apply block w-[100%] font-perm text-center justify-center xxs:text-[1.15rem] xs:text-[1.5rem] sm:text-[2.35rem] md:text-[2.5rem] lg:text-[3.15rem] xl:text-[3.5rem]
 }
 
 .article-contents {
-    @apply block w-[50%] mt-[1.5%] text-center mx-auto font-bebas xs:text-[0.68rem] sm:text-[1.05rem] md:text-[1.12rem] lg:text-[1.41rem] xl:text-[1.58rem]
-}
-
-.body {
-    @apply h-[150vh]
+    @apply block w-[50%] mt-[1.5%] text-center mx-auto font-bebas xxs:text-[0.6rem] xs:text-[0.75rem] sm:text-[1.05rem] md:text-[1.12rem] lg:text-[1.41rem] xl:text-[1.58rem]
 }
 
 .section-title {
-    @apply text-center font-bebas xl:text-[1rem] xs:text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem] mt-[2%]
+    @apply text-center font-bebas xs:text-[1rem] xs:text-[1.5rem] sm:text-[2rem] md:text-[2.5rem] lg:text-[3rem] xl:text-[3.25rem] mt-[2%]
 }
 
 .history-fact-text {
-    @apply font-bebas xs:text-[0.70rem] sm:text-[.90rem] md:text-[1.02rem] lg:text-[1.13rem] xl:text-[1.35rem] mt-[3%] leading-loose
+    @apply font-bebas xxs:text-[0.62rem] xs:text-[0.75rem] sm:text-[.90rem] md:text-[1.02rem] lg:text-[1.13rem] xl:text-[1.35rem] mt-[3%] leading-loose
 }
 
 .source-link {
-    @apply font-bebas xs:text-[0.6rem] sm:text-[.75rem] md:text-[0.85rem] lg:text-[1rem] xl:text-[1.1rem]
+    @apply font-bebas xxs:text-[0.4rem] xs:text-[0.6rem] sm:text-[.75rem] md:text-[0.85rem] lg:text-[1rem] xl:text-[1.1rem]
 }
 
 .gallery-img-container {
-    @apply xs:h-[11.9rem] xs:w-[17rem] sm:h-[16.1rem] sm:w-[23rem] md:h-[18.2rem] md:w-[26rem] lg:h-[19.25rem] lg:w-[27.5rem] xl:h-[21.7rem] xl:w-[31rem] mt-[7%] mb-[7%] mx-auto
+    @apply xxs:h-[8.5rem] xxs:w-[12rem] xs:h-[11.9rem] xs:w-[17rem] sm:h-[16.1rem] sm:w-[23rem] md:h-[18.2rem] md:w-[26rem] lg:h-[19.25rem] lg:w-[27.5rem] xl:h-[21.7rem] xl:w-[31rem] mt-[7%] mb-[7%] mx-auto
 }
