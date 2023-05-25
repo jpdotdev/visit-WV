@@ -13,11 +13,11 @@ body {
 }
 
 .wv {
-    @apply font-perm xxs:text-xs xs:text-sm sm:text-md md:text-lg lg:text-xl xl:text-xxl tracking-wide xxs:[text-shadow:_0.03rem_0.03rem_0.03rem_white] xs:[text-shadow:_0.05rem_0.05rem_0.05rem_white] sm:[text-shadow:_0.10rem_0.10rem_0.10rem_white] md:[text-shadow:_0.15rem_0.15rem_0.15rem_white] lg:[text-shadow:_0.20rem_0.20rem_0.20rem_white] xl:[text-shadow:_0.25rem_0.25rem_0.25rem_white]
+    @apply font-perm xs:mt-[-5%] xxs:text-xxs xs:text-sm sm:text-md md:text-lg lg:text-xl xl:text-xxl tracking-wide xxs:[text-shadow:_0.03rem_0.03rem_0.03rem_white] xs:[text-shadow:_0.05rem_0.05rem_0.05rem_white] sm:[text-shadow:_0.10rem_0.10rem_0.10rem_white] md:[text-shadow:_0.15rem_0.15rem_0.15rem_white] lg:[text-shadow:_0.20rem_0.20rem_0.20rem_white] xl:[text-shadow:_0.25rem_0.25rem_0.25rem_white]
 }
 
 .ww {
-    @apply font-perm xs:text-xxs sm:text-xs md:text-sm lg:text-md xl:text-lg tracking-wide xxs:[text-shadow:_0.03rem_0.03rem_0.03rem_white] xs:[text-shadow:_0.05rem_0.05rem_0.05rem_white] sm:[text-shadow:_0.10rem_0.10rem_0.10rem_white] md:[text-shadow:_0.15rem_0.15rem_0.15rem_white] lg:[text-shadow:_0.20rem_0.20rem_0.20rem_white] xl:[text-shadow:_0.25rem_0.25rem_0.25rem_white]
+    @apply font-perm xxs:text-xxxs xs:text-xxs sm:text-xs md:text-sm lg:text-md xl:text-lg tracking-wide xxs:[text-shadow:_0.03rem_0.03rem_0.03rem_white] xs:[text-shadow:_0.05rem_0.05rem_0.05rem_white] sm:[text-shadow:_0.10rem_0.10rem_0.10rem_white] md:[text-shadow:_0.15rem_0.15rem_0.15rem_white] lg:[text-shadow:_0.20rem_0.20rem_0.20rem_white] xl:[text-shadow:_0.25rem_0.25rem_0.25rem_white]
 }
 
 .article-title {

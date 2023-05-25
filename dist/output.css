@@ -674,13 +674,14 @@ body {
 
 @media (min-width: 100px) {
   .wv {
-    font-size: 2rem;
+    font-size: 1.35rem;
     text-shadow: 0.03rem 0.03rem 0.03rem white;
   }
 }
 
 @media (min-width: 360px) {
   .wv {
+    margin-top: -5%;
     font-size: 3rem;
     text-shadow: 0.05rem 0.05rem 0.05rem white;
   }
@@ -721,13 +722,14 @@ body {
 
 @media (min-width: 100px) {
   .ww {
+    font-size: 0.9rem;
     text-shadow: 0.03rem 0.03rem 0.03rem white;
   }
 }
 
 @media (min-width: 360px) {
   .ww {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     text-shadow: 0.05rem 0.05rem 0.05rem white;
   }
 }

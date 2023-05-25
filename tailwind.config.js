@@ -20,8 +20,8 @@ module.exports = {
       // => @media (min-width: 1440px) { ... }
     },
     fontSize: {
-      xxxs: '1rem',
-      xxs: '1.5rem',
+      xxxs: '0.9rem',
+      xxs: '1.35rem',
       xs: '2rem',
       sm: '3rem',
       md: '4rem',
